@@ -2,20 +2,32 @@
 
 /* Estilos Generales */
 :root {
-    --primary-color: #ff7f50; /* Naranja SpaceTravel */
-    --secondary-color: #1e1e1e; /* Negro oscuro */
-    --text-color: #ffffff; /* Blanco */
-    --gray-light: #999999; /* Gris claro */
-    --transition-duration: 0.3s; /* Duración de transiciones */
+    --primary-color: #ff7f50;
+    /* Naranja SpaceTravel */
+    --secondary-color: #1e1e1e;
+    /* Negro oscuro */
+    --text-color: #ffffff;
+    /* Blanco */
+    --gray-light: #999999;
+    /* Gris claro */
+    --transition-duration: 0.3s;
+    /* Duración de transiciones */
 }
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--secondary-color);
     color: var(--text-color);
     line-height: 1.6;
+    background-image: url('../img/fondoEstrellado.jpg');
+    /* Ruta relativa a la imagen */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del viewport */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
 }
 
 /* Variables para Google Fonts */
