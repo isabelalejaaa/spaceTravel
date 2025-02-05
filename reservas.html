@@ -21,6 +21,29 @@
             </ul>
         </div>
     </nav>
-
+    <!-- Formulario de Reserva -->
+    <div class="contenedor reservas">
+        <h3>Nueva Reserva</h3>
+        <form>
+            <div class="mb-3">
+                <label for="destination" class="etiqueta-formulario">Destino</label>
+                <select class="seleccion formulario" id="destination">
+                    <option>Marte - Base Tharsis</option>
+                    <option>Luna - Ciudad Tranquility</option>
+                </select>
+            </div>
+            <div class="fila">
+                <div class="col-md-6">
+                    <label for="fechaSalida" class="etiqueta-formulario">Fecha de salida</label>
+                    <input type="date" class="control-formulario fondo-oscuro texto-luz" id="fechaSalida">
+                </div>
+                <div class="col">
+                    <label for="pasajeros" class="etiqueta-formulario">Pasajeros</label>
+                    <input type="number" class="control-formulario fondo-oscuro texto-luz" id="pasajeros" value="1">
+                </div>
+            </div>
+            <button type="submit" class="botonReserva">Reservar</button>
+        </form>
+    </div>
 </body>
 </html>
