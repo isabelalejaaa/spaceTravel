@@ -2,47 +2,41 @@
 
 /* Estilos Generales */
 :root {
-    --primary-color: #ff7f50;
-    /* Naranja SpaceTravel */
-    --secondary-color: #1e1e1e;
-    /* Negro oscuro */
-    --text-color: #ffffff;
-    /* Blanco */
-    --gray-light: #999999;
-    /* Gris claro */
-    --transition-duration: 0.3s;
-    /* Duración de transiciones */
+    --primary-color: #ff7f50; /* Naranja SpaceTravel */
+    --secondary-color: #1e1e1e; /* Negro oscuro */
+    --text-color: #ffffff; /* Blanco */
+    --gray-light: #999999; /* Gris claro */
+    --transition-duration: 0.3s; /* Duración de transiciones */
+}
+
+/* Asegura que html y body ocupen toda la altura del viewport */
+html, body {
+    height: 100%; /* Altura completa */
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     color: var(--text-color);
     line-height: 1.6;
-    background-image: url('../img/fondoEstrellado.jpg');
-    /* Ruta relativa a la imagen */
-    background-size: cover;
-    /* Ajusta la imagen al tamaño del viewport */
-    background-position: center;
-    /* Centra la imagen */
-    background-repeat: no-repeat;
-    /* Evita que la imagen se repita */
+    background-image: url('../img/fondoEstrellado.jpg'); /* Ruta relativa a la imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del viewport */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen mientras se desplaza */
 }
-
-/* Variables para Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /* Barra de Navegación */
 .barra-navegacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--secondary-color);
-    padding: 15px 20px;
+    background-color: rgba(30, 30, 30, 0.8); /* Fondo semi-transparente */
+    padding: 10px 20px; /* Reducimos el padding para que no sea tan grande */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
     z-index: 1000;
+    position: relative;
 }
 
 .marca-barra {
@@ -103,26 +97,12 @@ body {
 
 /* Sección de Reservas */
 .reservas {
+    min-height: calc(100vh - 60px); /* Ajustamos la altura restando el alto de la barra de navegación */
     padding: 40px 0;
     text-align: center;
-}
-
-.reservas h3 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-    position: relative;
-}
-
-.reservas h3::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 2px;
-    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centramos verticalmente el contenido */
 }
 
 /* Formulario */
@@ -195,12 +175,67 @@ body {
     width: 100%;
 }
 
+/* Estilos para el Panel */
+.panel {
+    background-color: rgba(30, 30, 30, 0.9); /* Fondo oscuro semi-transparente */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra profunda */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo del panel */
+    color: var(--text-color);
+}
+
+.panel h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--primary-color); /* Título naranja */
+    position: relative;
+}
+
+.panel h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary-color); /* Subrayado naranja */
+}
+
+.panel p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--gray-light); /* Texto gris claro */
+}
+
+/* Botones dentro del panel */
+.botonPanel {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color); /* Naranja SpaceTravel */
+    color: var(--text-color); /* Texto blanco */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color var(--transition-duration) ease, transform var(--transition-duration) ease, box-shadow var(--transition-duration) ease;
+    margin-top: 15px;
+}
+
+.botonPanel:hover {
+    background-color: #e66b41; /* Oscurecimiento del naranja */
+    transform: scale(1.05); /* Aumento de tamaño */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
+
 /* Diseño Responsivo */
 @media (max-width: 768px) {
     .barra-navegacion {
         flex-direction: column;
         align-items: flex-start;
-        padding: 15px;
+        padding: 10px;
     }
 
     .lista-barra {
@@ -212,12 +247,7 @@ body {
         font-size: 14px;
     }
 
-    .fila {
-        flex-direction: column;
-    }
-
-    .botonReserva {
-        width: 100%;
-        margin-top: 15px;
+    .reservas {
+        min-height: calc(100vh - 80px); /* Ajustamos para pantallas pequeñas */
     }
 }
