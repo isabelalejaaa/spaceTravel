@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'CircularFont'; /* Choose a name for your font */
+    src: url('/font/circular-std-medium.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal; /* Optional, set font weight */
+    font-style: normal; /* Optional, set font style */
+}
+
+body{
+    background-image: url('/imgs/sthome.jpg'); /* Replace with your image file */
+    background-size: cover;  /* Ensures the image covers the whole screen */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Makes the background fixed (optional) */
+    background-repeat: no-repeat;
+    font-family: 'CircularFont', sans-serif;
+}
+
+.logo{
+    position: absolute;
+    left: 37px;
+    top: 30px;
+}
+
+ul.menu {
+    position: absolute;
+    list-style-type: none;
+    top: 70px;
+    left: 510px;
+    text-align: center; /* Center the menu items */
+}
+
+/* Style for each menu item */
+ul.menu li {
+    display: inline; /* Display items in a row */
+    padding: 30px 40px;
+}
+
+/* Style for links */
+ul.menu li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* White text */
+    font-size: 18px;
+}
+
+/* Hover effect */
+ul.menu li a:hover {
+    color: #957E37; /* Darker background on hover */
+}
+
+.titulo{
+    color: white;
+    position: absolute;
+    top: 230px;
+    width: 1000px;;
+    left: 460px;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.desc{
+    color: white;
+    position: absolute;
+    top: 400px;
+    width: 1000px;;
+    text-align: center;
+    left: 460px;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.botonGetStarted{
+    background-color: #957E37;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 35px;
+    top: 500px;
+    left: 830px;
+    width: 250px;
+    font-weight: medium;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.botonGetStarted:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.botonlogin{
+    background-color: black;
+    position: absolute;
+    border-radius: 25px;
+    border: 2px solid #957E37;
+    padding: 12px 35px;
+    top: 60px;
+    right: 120px;
+    width: 140px;
+    text-align: left;
+    color: #957E37;
+}
+
+.botonlogin:hover{
+    color: #957E37;
+    text-decoration: none;
+}
+
+.botonlogin2{
+    color: #957E37;
+    background-color: #957E37;
+    position: absolute;
+    border: 2px solid #957E37;
+    border-radius: 25px;
+    padding: 12px 35px;
+    top: 60px;
+    right: 90px;
+    width: 60px;
+}
+
+.arrow{
+    position: absolute;
+    right: 60px;
+    top: 35px;
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'CircularFont'; /* Choose a name for your font */
+    src: url('/font/circular-std-medium.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal; /* Optional, set font weight */
+    font-style: normal; /* Optional, set font style */
+}
+body{
+    background-image: url('/imgs/stpanel.jpg'); /* Replace with your image file */
+    background-size: cover;  /* Ensures the image covers the whole screen */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Makes the background fixed (optional) */
+    background-repeat: no-repeat;
+    font-family: 'CircularFont', sans-serif;
+}
+.logo{
+    position: absolute;
+    left: 37px;
+    top: 30px;
+}
+
+ul.menu {
+    position: absolute;
+    list-style-type: none;
+    top: 70px;
+    left: 510px;
+    text-align: center; /* Center the menu items */
+}
+
+/* Style for each menu item */
+ul.menu li {
+    display: inline; /* Display items in a row */
+    padding: 30px 40px;
+}
+
+/* Style for links */
+ul.menu li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* White text */
+    font-size: 18px;
+}
+
+/* Hover effect */
+ul.menu li a:hover {
+    color: #957E37; /* Darker background on hover */
+}
+
+.rectangulo{
+    background-image: URL('/imgs/stestrellas.jpg');
+    border: 5px solid #957E37;
+    border-radius: 50px;
+    width: 1500px;
+    height: 570px;
+    background-color: transparent;
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
+
+.bienvenida{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.subrectangulo{
+    background-image: linear-gradient(to right, #E1772F, #7B411A);
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 70px;
+    top: 160px;
+    left: 90px;
+}
+
+ul.panelUsuario-menu{
+    position: absolute;
+    list-style-type: none;
+    top: 180px;
+    left: 210px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+ul.panelUsuario-menu li {
+    display: inline; /* Display items in a row */
+    padding: 60px 80px;
+    margin-right: 60px;
+}
+
+/* Hover effect */
+ul.panelUsuario-menu li:hover {
+    color: black; /* Darker background on hover */
+}
