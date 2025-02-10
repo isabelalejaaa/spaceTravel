@@ -81,7 +81,7 @@ ul.panelUsuario-menu{
     position: absolute;
     list-style-type: none;
     top: 60px;
-    left: 210px;
+    left: 50px;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -89,13 +89,15 @@ ul.panelUsuario-menu{
 
 ul.panelUsuario-menu li {
     display: inline; /* Display items in a row */
-    padding: 60px 80px;
+    padding: 100px 140px;
     margin-right: 60px;
+    text-decoration: none;
 }
 
 /* Hover effect */
 ul.panelUsuario-menu li:hover {
     color: black; /* Darker background on hover */
+    text-decoration: none;
 }
 
 ul.misviajes{
@@ -104,12 +106,14 @@ ul.misviajes{
     flex-direction: column;
     font-size: 20px;
     padding-top: 170px;
-    padding-left: 620px;
+    padding-left: 510px;
+    z-index: 1;
 }
 
 ul.misviajes li{
     padding: 10px 40px;
     margin-bottom: 30px;
+    z-index: 1;
 }
 
 .btnSaberMas1{
@@ -171,20 +175,20 @@ ul.misviajes li{
 
 .planeta1{
     position: absolute;
-    top: 165px;
-    left: 295px;
+    top: 160px;
+    left: 230px;
 }
 
 .planeta2{
     position: absolute;
-    top: 240px;
-    left: 290px;
+    top: 235px;
+    left: 225px;
 }
 
 .planeta3{
     position: absolute;
-    top: 310px;
-    left: 300px;
+    top: 320px;
+    left: 230px;
 }
 
 .btnFinal{
@@ -200,4 +204,37 @@ ul.misviajes li{
     color: black;
     text-align: center;
     box-shadow: 20px 20px 100px 20px rgba(0, 0, 0, 0.9);
+}
+
+.resultado1{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 50px;
+    top: 170px;
+    left: 90px;
+    z-index: 0;
+}
+
+.resultado2{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 50px;
+    top: 250px;
+    left: 90px;
+    z-index: 0;
+}
+
+.resultado3{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 50px;
+    top: 330px;
+    left: 90px;
+    z-index: 0;
 }
