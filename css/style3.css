@@ -70,9 +70,9 @@ ul.menu li a:hover {
 
 .correo{
     position: absolute;
-    top: 540px;
+    top: 550px;
     left: 200px;
-    padding: 15px 45px;
+    padding: 16px 45px;
     border-radius: 25px;
     border: none;
     width: 590px;
@@ -80,9 +80,9 @@ ul.menu li a:hover {
 
 .contraseña{
     position: absolute;
-    top: 620px;
+    top: 640px;
     left: 200px;
-    padding: 15px 45px;
+    padding: 16px 45px;
     border-radius: 25px;
     border: none;
     width: 590px;
@@ -93,7 +93,7 @@ ul.menu li a:hover {
     position: absolute;
     border: none;
     border-radius: 25px;
-    padding: 15px 50px;
+    padding: 12px 50px;
     bottom: 200px;
     left: 200px;
     width: 270px;
@@ -101,6 +101,7 @@ ul.menu li a:hover {
     color: black;
     text-align: center;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .btnEmpezar:hover{
@@ -119,3 +120,8 @@ ul.menu li a:hover {
     font-weight: medium;
 }
 
+.satelite{
+    position: absolute;
+    top: 600px;
+    right: 580px;
+}

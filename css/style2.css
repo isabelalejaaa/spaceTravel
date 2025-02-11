@@ -111,13 +111,14 @@ ul.menu li a:hover {
     position: absolute;
     border: none;
     border-radius: 25px;
-    padding: 15px 50px;
-    bottom: 200px;
+    padding: 13px 50px;
+    bottom: 230px;
     left: 200px;
-    width: 270px;
+    width: 275px;
     font-weight: medium;
     color: black;
     text-align: center;
+    font-size: 20px;
 }
 
 .btnEmpezar:hover{
@@ -128,10 +129,16 @@ ul.menu li a:hover {
 .alreadyAcc{
     color: white;
     position: absolute;
-    bottom: 120px;
+    bottom: 140px;
     width: 1000px;;
     text-align: left;
     left: 200px;
     font-size: 20px;
     font-weight: medium;
+}
+
+.satelite{
+    position: absolute;
+    top: 120px;
+    right: 600px;
 }

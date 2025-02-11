@@ -128,10 +128,11 @@ ul.misviajes li{
     font-weight: medium;
     color: black;
     text-align: center;
+    text-decoration: none;
 }
 
 .btnSaberMas1:hover{
-    color: black;
+    background-color: #d1b14f;
     text-decoration: none;
 }
 
@@ -150,7 +151,7 @@ ul.misviajes li{
 }
 
 .btnSaberMas2:hover{
-    color: black;
+    background-color: #d1b14f;
     text-decoration: none;
 }
 
@@ -166,10 +167,11 @@ ul.misviajes li{
     font-weight: medium;
     color: black;
     text-align: center;
+    font-size: 18px;
 }
 
 .btnSaberMas3:hover{
-    color: black;
+    background-color: #d1b14f;
     text-decoration: none;
 }
 
@@ -192,18 +194,24 @@ ul.misviajes li{
 }
 
 .btnFinal{
-    background-color: #957E37;
+    background-color: rgb(202, 202, 202);
     position: absolute;
     border: none;
     border-radius: 25px;
     padding: 15px 50px;
     bottom: 120px;
-    right: 820px;
+    right: 840px;
     width: 270px;
     font-weight: medium;
+    font-size: 20px;
     color: black;
     text-align: center;
     box-shadow: 20px 20px 100px 20px rgba(0, 0, 0, 0.9);
+}
+
+.btnFinal:hover{
+    background-color: white;
+    color: black;
 }
 
 .resultado1{
@@ -238,3 +246,34 @@ ul.misviajes li{
     left: 90px;
     z-index: 0;
 }
+
+.astronauta{
+    position: fixed;
+    top: 500px;
+    left: -1010px;
+    transition: transform 0.1s ease-out;
+    transform: translateX(calc(50vw - 100px)); 
+}
+
+.ufo{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: none;
+    position: absolute;
+    top: 130px;
+    left: 1440px;
+    transform: rotate(30deg);
+    transform-origin: center;
+    width: 400px;  
+    height: auto; 
+}
+
+.profile{
+    position: absolute;
+    top: 55px;
+    right: 120px;
+}
+
+
+

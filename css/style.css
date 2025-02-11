@@ -85,7 +85,7 @@ ul.menu li a:hover {
 }
 
 .botonGetStarted:hover{
-    background-color: white;
+    background-color: #caae5a;
     color: black;
     text-decoration: none;
 }
@@ -124,4 +124,10 @@ ul.menu li a:hover {
     position: absolute;
     right: 60px;
     top: 35px;
+}
+
+.astronauta{
+    position: absolute;
+    top: 400px;
+    right:200px;
 }
