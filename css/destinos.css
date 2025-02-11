@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'CircularFont'; /* Choose a name for your font */
+    src: url('/font/circular-std-medium.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal; /* Optional, set font weight */
+    font-style: normal; /* Optional, set font style */
+}
+body{
+    background-image: url('/imgs/stdestinos.jpg'); /* Replace with your image file */
+    background-size: cover;  /* Ensures the image covers the whole screen */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Makes the background fixed (optional) */
+    background-repeat: no-repeat;
+    font-family: 'CircularFont', sans-serif;
+}
+.logo{
+    position: absolute;
+    left: 37px;
+    top: 30px;
+}
+
+ul.menu {
+    position: absolute;
+    list-style-type: none;
+    top: 70px;
+    left: 510px;
+    text-align: center; /* Center the menu items */
+}
+
+/* Style for each menu item */
+ul.menu li {
+    display: inline; /* Display items in a row */
+    padding: 30px 40px;
+}
+
+/* Style for links */
+ul.menu li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* White text */
+    font-size: 18px;
+}
+
+/* Hover effect */
+ul.menu li a:hover {
+    color: #957E37; /* Darker background on hover */
+}
+
+.rectangulo{
+    background-image: URL('/imgs/stestrellas.jpg');
+    border: 5px solid #957E37;
+    border-radius: 50px;
+    width: 1500px;
+    height: 450px;
+    background-color: transparent;
+    top: 320px;
+    left: 200px;
+    position: absolute;
+}
+
+.bienvenida{
+    color: white;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.subrectangulo{
+    background-image: linear-gradient(to right, #8A4F8A, #0272AB);
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 70px;
+    top: 40px;
+    left: 90px;
+}
+
+ul.panelUsuario-menu{
+    position: absolute;
+    list-style-type: none;
+    top: 60px;
+    left: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+ul.panelUsuario-menu li {
+    display: inline; /* Display items in a row */
+    padding: 100px 140px;
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+ul.panelUsuario-menu li:hover {
+    color: black; /* Darker background on hover */
+    text-decoration: none;
+}
+
+ul.misviajes{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 510px;
+    z-index: 1;
+}
+
+ul.misviajes li{
+    padding: 10px 40px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.btnSaberMas1{
+    background-color: #957E37;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    bottom: 220px;
+    right: 120px;
+    width: 270px;
+    font-weight: medium;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnSaberMas1:hover{
+    background-color: #d1b14f;
+    text-decoration: none;
+}
+
+.btnSaberMas2{
+    background-color: #957E37;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    bottom: 140px;
+    right: 120px;
+    width: 270px;
+    font-weight: medium;
+    color: black;
+    text-align: center;
+}
+
+.btnSaberMas2:hover{
+    background-color: #d1b14f;
+    text-decoration: none;
+}
+
+.btnSaberMas3{
+    background-color: #957E37;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    bottom: 60px;
+    right: 120px;
+    width: 270px;
+    font-weight: medium;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btnSaberMas3:hover{
+    background-color: #d1b14f;
+    text-decoration: none;
+}
+
+.planeta1{
+    position: absolute;
+    top: 160px;
+    left: 230px;
+}
+
+.planeta2{
+    position: absolute;
+    top: 235px;
+    left: 225px;
+}
+
+.planeta3{
+    position: absolute;
+    top: 320px;
+    left: 230px;
+}
+
+.btnFinal{
+    background-color: rgb(202, 202, 202);
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    bottom: 90px;
+    right: 840px;
+    width: 270px;
+    font-weight: medium;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    box-shadow: 20px 20px 100px 20px rgba(0, 0, 0, 0.9);
+}
+
+.btnFinal:hover{
+    background-color: white;
+    color: black;
+}
+
+.resultado1{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 50px;
+    top: 170px;
+    left: 90px;
+    z-index: 0;
+}
+
+.resultado2{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 50px;
+    top: 250px;
+    left: 90px;
+    z-index: 0;
+}
+
+.resultado3{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 1280px;
+    height: 50px;
+    top: 330px;
+    left: 90px;
+    z-index: 0;
+}
+
+.astronauta{
+    position: fixed;
+    top: 500px;
+    left: -1010px;
+    transition: transform 0.1s ease-out;
+    transform: translateX(calc(50vw - 100px));
+}
+
+.ufo{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: none;
+    position: absolute;
+    top: 130px;
+    left: 1440px;
+    transform: rotate(30deg);
+    transform-origin: center;
+    width: 400px;  
+    height: auto;
+}
+
+.profile{
+    position: absolute;
+    top: 55px;
+    right: 120px;
+}
