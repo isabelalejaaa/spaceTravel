@@ -112,7 +112,7 @@ ul.menu li a:hover {
     border: none;
     border-radius: 25px;
     padding: 13px 50px;
-    bottom: 230px;
+    bottom: 200px;
     left: 200px;
     width: 275px;
     font-weight: medium;
@@ -129,7 +129,7 @@ ul.menu li a:hover {
 .alreadyAcc{
     color: white;
     position: absolute;
-    bottom: 140px;
+    bottom: 120px;
     width: 1000px;;
     text-align: left;
     left: 200px;
