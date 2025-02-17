@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/reservas.css" rel="stylesheet">
+    <title>Document</title>
+    <script>
+        function reservarViaje() {
+            alert("¡Reserva confirmada!");
+        }
+    </script>
+</head>
+<body>
+    <a href="home.html"><img class="logo" src="/imgs/stlogo2.png"></a>
+    <ul class="menu">
+        <li><a href="/puViajes.html">Panel De Usuario</a></li>
+        <li><a style="color:#957E37 " href="/reservas.html">Reservas</a></li>
+        <li><a href="/destinosEstaciones.html">Destinos</a></li>
+        <li><a href="/historial.html">Historial y Opiniones</a></li>
+    </ul>
+    <img class="galaxia" src="/imgs/galaxia2.png">
+    <img class="profile" src="/imgs/profile.png">
+
+    <h3 class="titulo">Reserva Tu<mark style="background-color: black; color: #988039;">Viaje.</mark></h3>
+
+    <div class="rectangulo">
+        <form onsubmit="event.preventDefault(); reservarViaje();">
+            <label style="color: white; top:80px; position:absolute; left: 100px;" for="destino">Destino:</label>
+            <select class="destino" required>
+                <option value="" disabled selected>Seleccione un destino</option>
+                <option value="Marte">Marte</option>
+                <option value="Luna">Luna</option>
+                <option value="Neptuno">Neptuno</option>
+            </select>
+
+            <label style="color: white; top:165px; position:absolute; left: 100px;" for="fecha">Fecha:</label>
+            <input type="date" class="fecha" id="fecha" placeholder="Fecha" name="fecha" required><br>
+            <label style="color: white; top:265px; position:absolute; left: 100px;" for="pasajeros">Pasajeros:</label>
+            <input  class="numero" type="number" placeholder="Escriba un número" id="pasajeros" name="pasajeros" min="1" required><br><br>
+    </div>
+        <button type="submit" class="btnFinal">Reservar</button>
+         </form>
+
+    <img class="planeta4" src="/imgs/luna.png">
+    <h3 class="titulo2">Ofertas de <mark style="background-color: black; color: #988039;"><br>Destinos.</mark></h3>
+
+    <img class="card1" src="/imgs/card1reserva.png">
+    <img class="card2" src="/imgs/card2reserva.png">
+
+    <button class="btnFinal2">Mostrar Todos</button>
+   
+
+    <img class="satelite" src="/imgs/satelite.png">
+    <img class="satelite2" src="/imgs/satelite.png">
+    <img class="astronauta" src="/imgs/astronauta3.png">
+    <img class="galaxia2" src="/imgs/galaxia.png">
+    <img class="astronauta2" src="/imgs/astronautahome.png">
+    <img class="cohete" src="/imgs/cohete.png">
+    <img class="ufo" src="/imgs/ufo.png">
+    <img class="ufomini1" src="/imgs/ufo.png">
+
+    <p class="p">.</p>
+
+</body>
+</html>

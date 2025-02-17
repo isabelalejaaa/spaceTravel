@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'CircularFont'; /* Choose a name for your font */
+    src: url('/font/circular-std-medium.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal; /* Optional, set font weight */
+    font-style: normal; /* Optional, set font style */
+}
+
+body{
+    background-image: url('/imgs/streservas.jpg'); /* Replace with your image file */  
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    font-family: 'CircularFont', sans-serif;
+    background-position: center top;
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    left: 37px;
+    top: 30px;
+}
+
+ul.menu {
+    position: absolute;
+    list-style-type: none;
+    top: 70px;
+    left: 510px;
+    text-align: center; /* Center the menu items */
+}
+
+/* Style for each menu item */
+ul.menu li {
+    display: inline; /* Display items in a row */
+    padding: 30px 40px;
+}
+
+/* Style for links */
+ul.menu li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* White text */
+    font-size: 18px;
+}
+
+/* Hover effect */
+ul.menu li a:hover {
+    color: #957E37; /* Darker background on hover */
+}
+
+.titulo{
+    color: white;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.rectangulo{
+    background-image: URL('/imgs/stestrellas.jpg');
+    border: 5px solid #957E37;
+    border-radius: 50px;
+    width: 900px;
+    height: 370px;
+    background-color: transparent;
+    top: 330px;
+    left: 180px;
+    position: absolute;
+}
+
+.destino{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    padding: 18px 40px;
+    border-radius: 25px;
+    border: none;
+    width: 590px;
+    color: rgb(59, 59, 59);
+    background-color: #D9D9D9;
+}
+.fecha{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    padding: 15px 45px;
+    border-radius: 25px;
+    border: none;
+    width: 590px;
+    color: rgb(59, 59, 59);
+    background-color: #D9D9D9;
+}
+
+.numero{
+    position: absolute;
+    top: 240px;
+    left: 200px;
+    padding: 15px 45px;
+    border-radius: 25px;
+    border: none;
+    width: 590px;
+    color: rgb(59, 59, 59);
+    background-color: #D9D9D9;
+}
+
+.btnFinal{
+    background-color: #957E37;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    bottom: 152px;
+    left: 480px;
+    width: 270px;
+    font-weight: medium;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 20px 20px 100px 20px rgba(0, 0, 0, 0.9);
+}
+
+.btnFinal:hover{
+    background-color: #caae5a;
+}
+
+.resultado1{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 780px;
+    height: 50px;
+    top: 170px;
+    left: 50px;
+    z-index: 0;
+}
+
+.resultado2{
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+    width: 780px;
+    height: 50px;
+    top: 250px;
+    left: 50px;
+    z-index: 0;
+}
+
+.resultado3{
+    background-color:black;
+    position: absolute;
+    border-radius: 50px;
+    width: 780px;
+    height: 50px;
+    top: 330px;
+    left: 50px;
+    z-index: 0;
+}
+
+
+.titulo2{
+    color: white;
+    position: absolute;
+    top: 1590px;
+    right: 170px;
+    height: auto;
+    text-align: right;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.card1{
+    position: absolute;
+    top: 1790px;
+    right: 150px;
+}
+
+.card2{
+    position: absolute;
+    top: 1766px;
+    right: 540px;
+}
+
+.btnFinal2{
+    background-color: #957E37;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    top: 2270px;
+    right: 400px;
+    width: 290px;
+    font-weight: medium;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 20px 20px 100px 20px rgba(0, 0, 0, 0.9);
+}
+
+.btnFinal2:hover{
+background-color: #caae5a;
+}
