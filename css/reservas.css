@@ -200,3 +200,85 @@ ul.menu li a:hover {
 .btnFinal2:hover{
 background-color: #caae5a;
 }
+
+.profile{
+    position: absolute;
+    top: 55px;
+    right: 120px;
+}
+
+
+.satelite{
+    position: absolute;
+    top: 130px;
+    right: 380px;
+    width: 250px;
+}
+
+
+.p{
+    position: absolute;
+    top: 2400px;
+}
+
+
+.astronauta{
+    position: absolute;
+    top: 1000px;
+    width: 500px;
+}
+
+.galaxia{
+    position: absolute;
+    top: 700px;
+    left: -40px;
+    width: 450px;
+}
+
+.galaxia2{
+    position: absolute;
+    top: 2150px;
+    left: 710px;
+    width: 260px;
+}
+
+.astronauta2{
+    position: absolute;
+    top: 1350px;
+    right:200px;
+    width: 150px;
+}
+
+.planeta4{
+    position: absolute;
+    top: 1100px;
+    right:600px;
+    width: 550px;
+}
+
+.cohete{
+    position: absolute;
+    top: 550px;
+    left: 890px;
+}
+
+.satelite2{
+    position: absolute;
+    top: 1730px;
+    left: 600px;
+    width: 250px;
+}
+
+.ufo{
+    position: absolute;
+    top: 1130px;
+    left: 640px;
+    width: 250px;
+}
+
+.ufomini1{
+    position: absolute;
+    top: 1050px;
+    left: 820px;
+    width: 150px;
+}
